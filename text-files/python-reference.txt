@@ -1,0 +1,10 @@
+Docs
+	- https://docs.python.org/3/tutorial/index.html:
+
+format specifier language
+	- https://docs.python.org/3/library/string.html#formatspec
+
+Classes
+	- iterators, generators
+
+Virtual Environments and Packages

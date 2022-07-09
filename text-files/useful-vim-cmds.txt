@@ -1,0 +1,55 @@
+daw - delete (cut) word under the cursor and the space after or before it
+p - put (paste) the clipboard after cursor
+P - put (paste) before cursor
+s - delete character and substitute text
+S - delete line and substitute text (same as cc)
+
+fx - jump to next occurrence of character x
+tx - jump to before next occurrence of character x
+
+ea - insert (append) at the end of the word
+
+
+Navigation
+	- :line_number: move to a given line number
+	- [m : Go to [count] previous start of a method (for Java or similar structured language).
+	- using {} for block navigation
+	- gd (as in 'goto definition') (works globally)
+	- ctrl o, ctrl i - go to next/prev positions
+
+	- Ctrl-u Moves cursor & screen up ½ page
+	- Ctrl-d Moves cursor & screen down ½ page
+        - ctrl + e - move screen down one line (without moving cursor)
+        - Ctrl + y - move screen up one line (without moving cursor)
+        - nG ngg	line n, default the last, first
+
+Insertion
+	gI	insert text in first column
+	I 	insert text at beginning of text in column
+	inserting the same text on multiple lines
+		https://vim.fandom.com/wiki/Inserting_text_in_multiple_lines
+
+Search & substitution
+
+	# *	search backward, forward for word under cursor
+	g# g*	same, but also find partial matches
+
+
+Scrolling & multi-windowing
+	zt or z↵	set current line at top of window
+	zz or z. 	set current line at center of window
+	zb or z-	set current line at bottom of window
+
+
+Visual Mode
+	v V ^V	start/stop highlighting characters, lines, block
+	aw as ap	select a word, a sentence, a paragraph
+
+
+Is Marks and positions useful? Could be:
+	- mc	mark current position with mark c ∈[a..Z]
+	- `c `C	go to mark c in current, C in any file
+Editing while in Insert mode
+
+
+** ^ means ctrl **
