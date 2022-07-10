@@ -49,7 +49,17 @@ Visual Mode
 Is Marks and positions useful? Could be:
 	- mc	mark current position with mark c ∈[a..Z]
 	- `c `C	go to mark c in current, C in any file
+
 Editing while in Insert mode
+
+REGISTERS
+
+MACROS
+	a
+	q - stop recording macro
+	@a - run macro a
+	@@ - rerun last run macro
+
 
 
 ** ^ means ctrl **

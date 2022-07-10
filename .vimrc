@@ -53,4 +53,4 @@ set incsearch
 set number
 let mapleader = "'"
 inoremap jk <ESC>
-
+set tabstop=4
