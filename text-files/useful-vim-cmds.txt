@@ -22,12 +22,23 @@ Navigation
         - ctrl + e - move screen down one line (without moving cursor)
         - Ctrl + y - move screen up one line (without moving cursor)
         - nG ngg	line n, default the last, first
+	
+	Cursor
+		- H,M,L move to top, middle, bottom of screen (w/o moving cursor) 
 
-Insertion
+		Moving screen w/o moving cursor
+			- zt, zz, zb
+
+
+
+Editing : Insertion, Deletion, ...
 	gI	insert text in first column
 	I 	insert text at beginning of text in column
 	inserting the same text on multiple lines
 		https://vim.fandom.com/wiki/Inserting_text_in_multiple_lines
+
+
+	D delete to end of line
 
 Search & substitution
 

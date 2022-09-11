@@ -8,3 +8,18 @@ Classes
 	- iterators, generators
 
 Virtual Environments and Packages
+
+
+Relative Imports
+
+relative to sys.path which gets set when executing this module as a script
+i.e. python3.9 main.py adds qabot/ to sys.path and all relative imports
+using dot notation are relative to this.
+
+
+this is why import utils from a subpackage works although the subpackage is
+located in the parent dir of the subpackage (i.e. ../utils/)
+
+TLDR:
+Use relative imports (dot import notation) for imports relative to sys.path. The currently executed module
+gets added to sys.path.
