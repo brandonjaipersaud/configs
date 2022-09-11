@@ -5,3 +5,4 @@ TODO:
 - make script to configure files 
 - add .bashrc or .bash_profile
 
+test2
