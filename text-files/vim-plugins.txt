@@ -1,0 +1,15 @@
+
+Nerdtree
+
+    Switching tabs
+        2gt, 4gT
+        gt = go to
+
+    Close all tabs
+        - wqa
+        - qa
+        - a for "all"
+
+
+Enabling/Disabling Plugins
+    - rename ~/configs directory
