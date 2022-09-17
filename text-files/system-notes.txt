@@ -1,0 +1,3 @@
+
+MacOS
+    - .bashrc is called ~/.zshrc
