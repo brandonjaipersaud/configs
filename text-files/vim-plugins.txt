@@ -13,3 +13,12 @@ Nerdtree
 
 Enabling/Disabling Plugins
     - rename ~/configs directory
+
+
+Vim Splits
+    - ctrl +w +w
+
+
+ctrlw is like a vim split leader key
+    - i.e. ctrlw > increase width horizontally
+    - i.e. ctrlw + increase width vertically
